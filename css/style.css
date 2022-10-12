@@ -646,10 +646,13 @@ footer{
         margin-top: 50px;
     }
     .description_img img{
-        width: 400px;
+        width: 300px;
+    }
+    .description_details{
+        width: 100%;
     }
     .date{
-        height: 45rem;
+        height: 55rem;
     }
     .date_details{
         width: 100%;
@@ -657,9 +660,10 @@ footer{
     }
     .date_img img{
         height: 300px;
+        width: 250px;
     }
     .head_features p{
-        width: 30rem;    
+        width: 25rem;    
     }
     .special_features{
         float: none;
@@ -672,7 +676,8 @@ footer{
     width: 25rem;
     } 
     .screen_shot{
-        height: 70rem;
+        height: 107rem;
+        margin-bottom: 30rem;
     }
     .screen_img::before {
         display: none;
@@ -697,7 +702,7 @@ footer{
         margin-top: 20px;
     }
     .icon2{
-        height: 50rem;
+        height: 80rem;
     }
     .iphone{
         width: 370px;
