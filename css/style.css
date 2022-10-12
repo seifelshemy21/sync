@@ -617,7 +617,7 @@ footer{
     margin-top: 3rem;
     font-size: smaller;
 }
-@media (min-width: 576px) and (max-width: 794px)  {
+@media (min-width: 350px) and (max-width: 794px)  {
     .navbar1{
         width: 100%;
         margin: auto;
