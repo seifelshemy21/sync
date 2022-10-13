@@ -1,0 +1,780 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(217 230 241 / 40%);
+}
+:root{
+    --button-color: rgb(253, 11, 112);
+    --main-color:black;
+    --p-color:rgb(94, 88, 88);
+}
+.clear{
+    clear:both;
+}
+.container{
+    margin: auto;
+    width: 70%;
+}
+a{
+    text-decoration: none;
+}
+button{
+    border: none;
+    border:1px solid var(--button-color);
+    border-radius: 20px;
+    text-transform: uppercase;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+/**************** start nav **************/
+.navbar1{
+    float: left;
+    font-family: 'Dancing Script', cursive;
+    text-transform: capitalize;
+    font-size: 25px;
+    margin-top: 17px;
+}
+.navbar1 img{
+    width: 25px;
+}
+.navbar2{
+    float: right;
+}
+.navbar2 ul{
+    list-style-type: none;
+
+}
+.navbar2 .floanchor{
+    float: left;
+    margin: 10px;
+}
+.navbar2 a{
+    color: var(--main-color);
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.navbar2 button{
+    padding: 7px 22px;
+    color:var(--button-color);
+}
+.navbar2 button:hover{
+    background-color: var(--button-color);
+    color: white;
+    box-shadow: 3px 3px 3px var(--p-color);
+}
+.diamond{
+    margin-left: 50px;
+}
+/***************** end nav ***************/
+/************ yellow circle **********/
+.circle{
+    position: absolute;
+    right: 10rem;
+    top: 10rem;
+}
+/**************** start mobile app ***************/
+.mobile_app{
+    text-align: center;
+}
+.mobile_app h1{
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 0%;
+}
+.mobile_app p{
+    color:var(--p-color);
+}
+.mobile_app button{
+    padding: 10px 25px;
+    background-color:var(--button-color);
+    color: white;
+}
+/**************** end mobile app ***************/
+/**************** start header phone *********************/
+.header_phone{
+    position: relative;
+    width: 700px;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+.blue-circle{
+    position: absolute;
+    top: 55%;
+}
+.icons {
+    float: left;
+    height: 75px;
+    width: 75px;
+    margin-left: 90px;
+    margin-top: 20px;
+    text-align: center;
+}
+.icons p{
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: bold;
+}
+.icons .fa-users{
+    background-color:rgba(188, 143, 231, 0.527);
+    height: 75px;
+    width: 75px;
+    border-radius:50px;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    -ms-border-radius:50px;
+    -o-border-radius:50px;
+    color:rgba(158, 77, 235, 0.993);
+    font-size: 30px;
+    padding-top: 20px;
+}
+.icons .fa-code{
+    background-color:rgba(19, 201, 13, 0.233);
+    height: 75px;
+    width: 75px;
+    border-radius:50px;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    -ms-border-radius:50px;
+    -o-border-radius:50px;
+    color:rgb(19, 201, 13);
+    font-size: 30px;
+    padding-top: 20px;
+}
+.icons .fa-gear{
+    background-color:rgba(240, 57, 57, 0.39);
+    height: 75px;
+    width: 75px;
+    border-radius:50px;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    -ms-border-radius:50px;
+    -o-border-radius:50px;
+    color: rgb(240, 57, 57);
+    font-size: 30px;
+    padding-top: 20px;
+}
+.icons .fa-comments{
+    background-color:rgba(214, 236, 22, 0.445);
+    height: 75px;
+    width: 75px;
+    border-radius:50px;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    -ms-border-radius:50px;
+    -o-border-radius:50px;
+    color:rgb(217, 240, 12) ;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.icons .fa-rocket{
+    background-color:rgba(55, 35, 231, 0.253);
+    height: 75px;
+    width: 75px;
+    border-radius:50px;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    -ms-border-radius:50px;
+    -o-border-radius:50px;
+    color: rgb(48, 28, 235);
+    font-size: 30px;
+    padding-top: 20px;
+}
+/**************** end header phone *********************/
+/****************** start description ***************/
+.description{
+    margin-top: 10rem;
+}
+.description_img{
+    float: left;
+}
+.description_img img{
+    width: 425px;
+}
+.description_details{
+    float: right;
+    width: 430px;
+    margin-top: 3rem;
+    color: var(--p-color);
+    text-transform: capitalize;
+}
+.description_details button{
+    padding: 9px 30px;
+    background-color:var(--button-color);
+    color: white;
+}
+.description_details h2{
+    font-size: 40px;
+    color: var(--main-color);
+}
+.description_details ul{
+    list-style-type: square;
+}
+/****************** end description ***************/
+/***************** start date ***************/
+.date{
+    margin-top: 10rem;
+    background-color: rgba(99, 99, 230, 0.158);
+    height: 40rem;
+    color: var(--p-color);
+}
+.date_details{
+    float: left;
+    width: 425px;
+    margin-top: 7rem;
+}
+.but_date{
+    border: none;
+    border-radius:0%;
+    -webkit-border-radius:0%;
+    -moz-border-radius:0%;
+    -ms-border-radius:0%;
+    -o-border-radius:0%;
+    padding: 6px;
+    color: var(--p-color);
+}
+.but_date:hover{
+    background-color: rgb(110, 26, 131);
+    color: white;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    box-shadow: 3px 3px 3px var(--p-color);
+}
+.date_details ul{
+    list-style-type:none;
+}
+.date_details ul i{
+    color: green;
+    padding-right: 10px;
+}
+.but_date2{
+    padding: 5px 20px;
+    background-color:var(--button-color);
+    color: white;
+}
+.but_date3{
+    border: 1px solid black;
+    padding: 10px 15px;
+}
+.but_date3:hover{
+    background-color: var(--button-color);
+    box-shadow: 3px 3px 3px var(--p-color);
+    color: white;
+}
+.date_img{
+    float: right;
+}
+.date_img img{
+    width: 425px;
+    margin-top: 5rem;
+}
+/***************** end date ***************/
+/********** start special_features *************/
+.head_features{
+    margin-top: 5rem;
+}
+.head_features h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 2%;
+}
+.head_features p{
+    width: 60rem;
+    color:var(--p-color);
+    text-align: center;
+}
+.special_features{
+    float: left;
+    width: 33%;
+}
+.sec_features div{
+    margin-top: 15px;
+}
+.features_left  b{
+    text-transform: capitalize;
+    margin-left: 8rem;
+}
+.special_features img{
+    width: 250px;
+    height: 400px;
+    margin-left: 10%;
+}
+.special_features p{
+    margin-top: 0%;
+    color: var(--p-color);
+    width: 16rem;
+    text-align: end;
+}
+.features_right p{
+text-align: start;
+}
+.features_float{
+    float: left;
+    margin-left: 5px;
+    align-items:center;
+}
+.features_float2{
+    float: left;
+    margin-left: 5px;
+    align-items:center;
+}
+.special_features .features_float .fa-users{
+    background-color:rgb(170, 110, 226);
+    height: 45px;
+    width: 45px;
+    border-radius:50px;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    -ms-border-radius:50px;
+    -o-border-radius:50px;
+    color: white;    
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+.special_features .fa-code{
+    background-color:rgb(14, 170, 9);
+    height: 45px;
+    width: 45px;
+    border-radius:50px;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    -ms-border-radius:50px;
+    -o-border-radius:50px;
+    color: white;   
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+.special_features .fa-gear{
+    background-color:rgb(231, 62, 62);
+    height: 45px;
+    width: 45px;
+    border-radius:50px;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    -ms-border-radius:50px;
+    -o-border-radius:50px;
+    color: white;   
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+.special_features .fa-comments{
+    background-color:rgba(214, 236, 22, 0.856);
+    height: 45px;
+    width: 45px;
+    border-radius:50px;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    -ms-border-radius:50px;
+    -o-border-radius:50px;
+    color: white;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 7px;
+}
+.special_features .fa-rocket{
+    background-color:rgba(55, 35, 231, 0.753);
+    height: 45px;
+    width: 45px;
+    border-radius:50px;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    -ms-border-radius:50px;
+    -o-border-radius:50px;
+    color: white;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 7px;
+}
+.special_features .fa-download{
+    background-color:rgb(170, 110, 226);
+    height: 45px;
+    width: 45px;
+    border-radius:50px;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    -ms-border-radius:50px;
+    -o-border-radius:50px;
+    color: white;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+/********** end special_features *************/
+/************ start screen_shot ***************/
+.screen_shot{
+    background-color: rgba(99, 99, 230, 0.158);
+    margin-top: 8%;
+    height: 30rem;
+    position: relative;
+}
+.screen_shot img{
+    width: 150px;
+    margin-right: 30px;
+    margin-top: 7%;
+}
+.screen_img::before{
+    content: "<";
+    font-size: 50px;
+    color: var(--p-color);
+    position: absolute;
+    left: 10rem;
+    top: 11rem;
+}
+.screen_img::after{
+    content: ">";
+    font-size: 50px;
+    color: var(--p-color);
+    position: absolute;
+    right: 13rem;
+    top: 11rem;
+}
+/************ end screen_shot ***************/
+/************** start user testimonial ************/
+.stars_img{
+    text-transform: capitalize;
+}
+.user_stars{
+    float: left;
+    text-align: center;
+    margin-right: 40px;
+}
+.stars_img h2{
+    text-align: center;
+    font-size: 40px;
+}
+.stars_img p{
+    width: 17rem;
+    margin-bottom: 1%;
+}
+.stars_img img{
+    width: 150px;
+}
+.customer{
+    margin-top: 8%;
+    background-color: white;
+    padding: 15px 30px;
+}
+.customer img{
+    margin-right: 12px;
+    margin-left: 10px;
+}
+.user_rating{
+    margin-top: 7%;
+}
+/************** end user testimonial ************/
+/*************** start icons2 **************/
+.icon2{
+    background-color: rgba(99, 99, 230, 0.158);
+    margin-top: 5rem;
+    height: 20rem;
+}
+.icons2 {
+    float: left;
+    margin-left: 90px;
+    margin-top: 4rem;
+    text-align: center;
+}
+.icons2 p{
+    text-transform: capitalize;
+    font-size: 12px;
+    color: var(--p-color);
+}
+.icons2 article{
+    font-size: 50px;
+    font-weight: bold;
+}
+.icons2 .fa-users{
+    height: 75px;
+    width: 75px;
+    border-radius:50px;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    -ms-border-radius:50px;
+    -o-border-radius:50px;
+    color:rgba(158, 77, 235, 0.993);
+    font-size: 40px;
+    padding-top: 20px;
+}
+.icons2 .fa-code{
+    height: 75px;
+    width: 75px;
+    border-radius:50px;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    -ms-border-radius:50px;
+    -o-border-radius:50px;
+    color:rgb(19, 201, 13);
+    font-size: 40px;
+    padding-top: 20px;
+}
+.icons2 .fa-gear{
+    height: 75px;
+    width: 75px;
+    border-radius:50px;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    -ms-border-radius:50px;
+    -o-border-radius:50px;
+    color: rgb(240, 57, 57);
+    font-size: 40px;
+    padding-top: 20px;
+}
+.icons2 .fa-comments{
+    height: 75px;
+    width: 75px;
+    border-radius:50px;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    -ms-border-radius:50px;
+    -o-border-radius:50px;
+    color:rgb(217, 240, 12) ;
+    font-size: 40px;
+    padding-top: 20px;
+}
+.icons2 .fa-rocket{
+    height: 75px;
+    width: 75px;
+    border-radius:50px;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    -ms-border-radius:50px;
+    -o-border-radius:50px;
+    color: rgb(48, 28, 235);
+    font-size: 40px;
+    padding-top: 20px;
+}
+/*************** end icons2 **************/
+/************ start iphone ****************/
+.position_iphone{
+    position: relative;
+    margin-bottom: 10rem;
+}
+.iphone{
+    width: 700px;
+    margin-top: 75px;
+    margin-left: 100px;
+}
+.position_iphone .blue-circle2{
+    position: absolute;
+    right: 5px;
+    top: 10rem;
+}
+.position_iphone .diamond2{
+    position: absolute;
+    top: 5px;
+    right: 15rem;
+}
+.mobile_app2{
+    text-align: center;
+    margin-top: 5%;
+}
+.mobile_app2 h1{
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 0%;
+}
+.mobile_app2 p{
+    color:var(--p-color);
+}
+.mobile_app2 button{
+    padding: 10px 25px;
+    background-color:var(--button-color);
+    color: white;
+}
+/************ end iphone ****************/
+/************** start footer ***********/
+footer{
+    border-top: 1px solid var(--p-color);
+    width: 100%;
+    color: var(--p-color);
+}
+.foot {
+    margin-left: 10rem;
+    
+}
+.float-footer{
+    float: left;
+    width: 19%;
+    text-transform: capitalize;
+    margin-top: 5rem;
+    text-align: start;
+}
+.fa-facebook-f, .fa-twitter , .fa-pinterest , .fa-instagram{
+    font-size: 25px;
+
+} 
+.finish{
+    text-align: center;
+    margin-top: 3rem;
+    font-size: smaller;
+}
+@media (min-width: 576px) and (max-width: 794px)  {
+    .navbar1{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .navbar2{
+        width: 100%;
+        margin: auto;
+    }
+    .circle , .circle2{
+        display: none;
+    }
+    .blue-circle , .blue-circle2{
+        display: none;
+    }
+    .diamond , .diamond2{
+        display: none;
+    }
+    .header_phone{
+        width: 370px;
+        margin: auto;
+        margin-top: 4rem;
+    }
+    .icons {
+        width: 20%;
+        margin-top: 50px;
+    }
+    .description_img img{
+        width: 400px;
+    }
+    .date{
+        height: 45rem;
+    }
+    .date_details{
+        width: 100%;
+        margin: auto;
+    }
+    .date_img img{
+        height: 300px;
+    }
+    .head_features p{
+        width: 30rem;    
+    }
+    .special_features{
+        float: none;
+        margin-left: 5rem;
+    }
+    .features_left {
+        width: 25rem;
+    }
+    .features_right{
+    width: 25rem;
+    } 
+    .screen_shot{
+        height: 70rem;
+    }
+    .screen_img::before {
+        display: none;
+    }
+    .screen_img::after {
+        display: none;
+    }
+    .stars_img{
+        margin-top: 7rem;
+        margin-left: 10rem;
+    }
+    .stars_img h2{
+        text-align: start;
+    }
+    .user_stars{
+        margin-top: 20px;
+    }
+    .customer{
+        background: none;
+    }
+    .customer img{
+        margin-top: 20px;
+    }
+    .icon2{
+        height: 50rem;
+    }
+    .iphone{
+        width: 370px;
+        margin: auto;
+        margin-top: 4rem;
+    }
+    .foot div{
+        width: 50%;
+    }
+}
+@media (min-width: 794px) and (max-width: 990px)  {
+    .navbar1{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .navbar2{
+        width: 100%;
+        margin: auto;
+    }
+    .circle , .circle2{
+        display: none;
+    }
+    .blue-circle , .blue-circle2{
+        display: none;
+    }
+    .diamond , .diamond2{
+        display: none;
+    }
+    .header_phone{
+        width: 470px;
+        margin: auto;
+        margin-top: 4rem;
+    }
+    .icons {
+        width: 30%;
+        margin-top: 50px;
+    }
+    .description_img img{
+        width: 350px;
+        margin-left: 10rem;
+    }
+    .date{
+        height: 50rem;
+    }
+    .date_details{
+        width: 100%;
+        margin: auto;
+    }
+    .date_img img{
+        height: 400px;
+    }
+    .head_features p{
+        width: 40rem;
+    }
+    .special_features{
+        float: none;
+        margin-left: 10rem;
+    }
+    .features_left {
+        width: 25rem;
+    }
+    .features_right{
+    width: 25rem;
+    }  
+    .screen_img::before {
+    display: none;
+    }
+    .screen_img::after {
+    display: none;
+    }
+    .iphone{
+        width: 370px;
+        margin: auto;
+        margin-top: 4rem;
+    }
+    .foot div{
+        width: 50%;
+    }
+}
