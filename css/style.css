@@ -675,6 +675,7 @@ footer{
         margin-left: 0%;
     }
     .special_features img{
+        width: 200px;
         margin-left: 0%;
         padding-top: 6rem;
     }
