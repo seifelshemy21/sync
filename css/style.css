@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    /* border: 3px solid black; */
 }
 body{
     background-color:rgb(217 230 241 / 40%);
@@ -617,7 +618,115 @@ footer{
     margin-top: 3rem;
     font-size: smaller;
 }
-@media (min-width: 350px) and (max-width: 794px)  {
+@media (min-width: 350px) and (max-width: 576px)  {
+    .navbar1{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .navbar2{
+        width: 100%;
+        margin: auto;
+    }
+    .circle , .circle2{
+        display: none;
+    }
+    .blue-circle , .blue-circle2{
+        display: none;
+    }
+    .diamond , .diamond2{
+        display: none;
+    }
+    .header_phone{
+        width: 250px;
+        margin: auto;
+        margin-top: 4rem;
+    }
+    .icons {
+        width: 20%;
+        margin-top: 50px;
+    }
+    .description_img img{
+        width: 250px;
+    }
+    .description_details{
+        width: 100%;
+    }
+    .date{
+        height: 60rem;
+    }
+    .date_details{
+        width: 100%;
+        margin: auto;
+    }
+    .date_img img{
+        height: 300px;
+        width: 250px;
+    }
+    .head_features p{
+        width: 16rem;    
+    }
+    .special_features{
+        float: none;
+        margin-left: 5rem;
+    }
+    .features_left {
+        width: 19rem;
+        margin-left: 0%;
+    }
+    .special_features img{
+        margin-left: 0%;
+        padding-top: 6rem;
+    }
+    .features_right{
+    width: 19rem;
+    margin-left: 0%;
+    } 
+    .screen_shot{
+        height: 107rem;
+        margin-bottom: 3rem;
+    }
+    .screen_img{
+        margin-left: 6rem;
+    }
+    .screen_img::before {
+        display: none;
+    }
+    .screen_img::after {
+        display: none;
+    }
+    .stars_img{
+        margin-left: 4rem;
+    }
+    .stars_img h2{
+        text-align: start;
+    }
+    .user_stars{
+        margin-top: 15px;
+    }
+    .customer{
+        background: none;
+    }
+    .customer img{
+        margin-top: 20px;
+    }
+    .icon2{
+        height: 80rem;
+    }
+    .iphone{
+        width: 250px;
+        margin: auto;
+        margin-top: 4rem;
+    }
+    .foot{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .foot div{
+        width: 50%;        
+    }
+}
+@media (min-width: 576px) and (max-width: 794px)  {
     .navbar1{
         width: 100%;
         margin: auto;
