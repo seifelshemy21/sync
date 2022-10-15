@@ -724,7 +724,8 @@ footer{
         margin-left: 0%;
     }
     .foot div{
-        width: 50%;        
+        width: 50%;  
+        text-align: center;
     }
 }
 @media (min-width: 576px) and (max-width: 794px)  {
